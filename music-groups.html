@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<link rel="stylesheet" href="styles/style.css">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Music Library</title>
+</head>
+<body>
+    <header>
+        <div>
+            <a href="index.html">
+                <span>Home - Music Library</span>
+            </a>
+        </div>
+
+        <ul>
+            <li>
+                <a href="index.html">Home</a>
+            </li>
+            <li>
+                <a href="music-groups.html">Music groups</a>
+            </li>
+        </ul>
+    </header>
+
+    <hr>
+
+    <div class="container">
+        <h2>List of Music Bands</h2>
+        <hr>
+        <p>Below are some of the worlds most famous Music Bands</p>
+        <div class="search-container">
+            <input type="text" id="search-input" placeholder="Search for a music group..." />
+            <button id="search-button">Search</button>
+            <button id="clear-button">Clear</button>
+        </div>
+        <div>
+            <ul id="listed-groups">
+
+            </ul>
+        </div>
+        <div id="pagination">
+            <button id="prev">🠈</button>
+            <span id="page-number"></span>
+            <button id="next">🠊</button>
+        </div>
+    </div>
+
+    <footer>
+        <hr>
+        <p>© Amanda Kilström</p>
+    </footer>
+
+    <script src="/scripts/music-groups.js"></script>
+</body>
+</html>
